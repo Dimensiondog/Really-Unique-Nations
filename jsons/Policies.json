@@ -1,0 +1,160 @@
+[
+    {
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Oligarchy",
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite",
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Monarchy",
+                "requires": ["Legalism"],
+            },
+            {
+                "name": "Tradition Complete",
+            }
+        ]
+    },
+    {
+        "name": "Italians",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "policies": [
+            {
+                "name": "Etruscans",
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Roman Kindom",
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Roman Repulic",
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Roman Empire",
+                "requires": ["Roman Republic"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Ostrogoths",
+                "requires": ["Roman Empire"],
+                "row": 4,
+                "column": 5
+            },
+           {
+                "name": "Byzantine Occupation",
+                "row": 5,
+                "column": 3
+            },
+           {
+                "name": "Lombards",
+                "row": 5,
+                "column": 5
+            },
+           {
+                "name": "Republic of Venice",
+                "row": 5,
+                "column": 7
+            },
+           {
+                "name": "Kingdom of Sicily",
+                "requires": ["Byzantine Occupation"],
+                "row": 6,
+                "column": 1
+            },
+           {
+                "name": "Kingdom of Naples",
+                "requires": ["Byzantine Occupation"],
+                "row": 6,
+                "column": 3
+            },
+           {
+                "name": "Republic of Genoa",
+                "requires": ["Lombards"],
+                "row": 6,
+                "column": 5
+            },
+           {
+                "name": "Republic of Florence",
+                "requires": ["Lombards"],
+                "row": 6,
+                "column": 5
+            },
+           {
+                "name": "Republic of Milan",
+                "requires": ["Lombards"],
+                "row": 6,
+                "column": 7
+            },
+           {
+                "name": "Italian Unification",
+                "row": 7,
+                "column": 5
+            },
+           {
+                "name": "Rise of Mussolini",
+                "requires": ["Italian Unification"],
+                "row": 8,
+                "column": 1
+            },
+           {
+                "name": "Communist Party",
+                "requires": ["Italian Unification"],
+                "row": 8,
+                "column": 3
+            },
+           {
+                "name": "Italian Republic",
+                "requires": ["Italian Unification"],
+                "row": 8,
+                "column": 5
+            },
+           {
+                "name": "Kingdom of Italy",
+                "requires": ["Italian Unification"],
+                "row": 8,
+                "column": 7
+            },
+            {
+                "name": "Italians Complete",
+            }
+        ]
+    },
+]
